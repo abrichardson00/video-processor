@@ -1,5 +1,5 @@
 # video-processor
-Python script for processing videos and making them look funky. 
+Python script for processing videos and making them look funky (see the example below). 
 
 Makes use of art_gen.py and image_manipulator.py from https://github.com/AlexDR1998/Art-Generator. Only change made was removing the main method from art_gen.py.
 The class ArtGenerator from art_gen.py is used in video_processor to process each frame.
