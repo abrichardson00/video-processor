@@ -1,6 +1,6 @@
 # video-processor
 Python script for processing videos and making them look funky. 
-![](gif1.gif)
+
 Makes use of art_gen.py and image_manipulator.py from https://github.com/AlexDR1998/Art-Generator. Only change made was removing the main method from art_gen.py.
 The class ArtGenerator from art_gen.py is used in video_processor to process each frame.
 
@@ -11,3 +11,5 @@ There's some experimental WIP functions that can be toggled by setting 'timestre
 Requirements:
 Python 2.7, Numpy, OpenCV
 (if it doesn't run, Scipy and Matplotlib might also be needed, as specified for https://github.com/AlexDR1998/Art-Generator - although their functionality isn't needed for video_processor.py)
+
+![](gif1.gif)
