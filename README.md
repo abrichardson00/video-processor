@@ -9,7 +9,6 @@ To use the video processor, edit the file to include the appropriate file name o
 There's some experimental WIP functions that can be toggled by setting 'timestretch' to true. The idea is that they process each frame by setting columns of the current frame to columns from future frames. Looks pretty cool, but has proven to be very computationally intensive. I plan to sort this out properly later.
 
 Requirements:
-Python 2.7, Numpy, OpenCV
-(if it doesn't run, Scipy and Matplotlib might also be needed, as specified for https://github.com/AlexDR1998/Art-Generator - although their functionality isn't needed for video_processor.py)
+Python 2.7, Numpy, OpenCV (also Scipy and Matplotlib are needed for https://github.com/AlexDR1998/Art-Generator)
 
 ![](gif1.gif)
